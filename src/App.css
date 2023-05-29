@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+.calculator {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  border: 1px solid gainsboro;
+  display: grid;
+  grid-template-rows: 2fr 8fr;
+}
+
+.form {
+  width: 100%;
+  border: 1px solid black;
+}
+
+input {
+  width: 97%;
+  height: 50%;
+  border: none;
+
+}
+.keyboard{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.result {
+  font-size: 1.4rem;
+  padding-left: 10px;
+}
+
+
+
+button {
+  cursor: pointer;
+}
+
+.grid-2 {
+  background: blue;
+  grid-column: 4fr;
+}
